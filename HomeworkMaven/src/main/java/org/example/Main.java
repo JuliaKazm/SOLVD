@@ -1,9 +1,9 @@
 package org.example;
+
 import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.example.People.*;
 import org.example.Products.*;
-import org.apache.logging.log4j.Logger;
-
 
 public class Main {
     private static final Logger logger = LogManager.getLogger(Main.class);
@@ -13,11 +13,11 @@ public class Main {
         p.sayHello();
         System.out.println();
         Person julia = new Person("Julia", 30);
-        System.out.println(julia.toString());
+        logger.info(julia.toString());
         System.out.println();
-        System.out.println("p.equals(julia): " + p.equals(julia));
+        logger.info("p.equals(julia): " + p.equals(julia));
         System.out.println();
-        System.out.println("p.hashCode(): " + p.hashCode());
+        logger.info("p.hashCode(): " + p.hashCode());
         System.out.println();
 
         Cashier c = new Cashier("Mia", 25, 45000);
@@ -28,7 +28,7 @@ public class Main {
         Cashier c2 = new Cashier("Jerry", 30, 30000);
         Cashier c3 = new Cashier("Bella", 20, 30000);
 
-        System.out.println("Number of cashiers: " + Cashier.getNumberOfCashiers());
+        logger.info("Number of cashiers: " + Cashier.getNumberOfCashiers());
         c.printSalary();
         c1.printSalary();
         c2.printSalary();
@@ -67,32 +67,32 @@ public class Main {
             System.out.println();
         }
 
-        System.out.println("Butter: " + butter.getName() + ", " + butter.getLocation() + ", salt content: " + butter.getSaltContent());
+        logger.info("Butter: " + butter.getName() + ", " + butter.getLocation() + ", salt content: " + butter.getSaltContent());
         butter.fat();
         System.out.println();
-        System.out.println("Cheese: " + cheese.getName() + ", " + cheese.getLocation() + ", type: " + cheese.getType());
+        logger.info("Cheese: " + cheese.getName() + ", " + cheese.getLocation() + ", type: " + cheese.getType());
         cheese.fat();
         System.out.println();
-        System.out.println("Milk: " + milk.getName() + ", " + milk.getLocation() + ", fat content: " + milk.getFatContent());
+        logger.info("Milk: " + milk.getName() + ", " + milk.getLocation() + ", fat content: " + milk.getFatContent());
         milk.fat();
         System.out.println();
-        System.out.println("Yogurt: " + yogurt.getName() + ", " + yogurt.getLocation() + ", flavor: " + yogurt.getFlavor());
+        logger.info("Yogurt: " + yogurt.getName() + ", " + yogurt.getLocation() + ", flavor: " + yogurt.getFlavor());
         yogurt.fat();
         System.out.println();
 
         Butter1 butter1 = new Butter1("yellow", 7, 5);
-        System.out.println("Butter1 color: " + butter1.getColor());
-        System.out.println("Butter1 width: " + butter1.getWidth());
-        System.out.println("Butter1 height: " + butter1.getHeight());
+        logger.info("Butter1 color: " + butter1.getColor());
+        logger.info("Butter1 width: " + butter1.getWidth());
+        logger.info("Butter1 height: " + butter1.getHeight());
 
         double area = butter1.getArea();
-        System.out.println("Area of square Butter1: " + area);
+        logger.warn("Area of square Butter1: " + area);
         System.out.println();
 
         Cheese1 cheese1 = new Cheese1("white", 5);
-        System.out.println("Cheese1 color: " + cheese1.getColor());
-        System.out.println("Cheese1 Radius :" + cheese1.getRadius());
-        System.out.println("Area of Round Cheese1: " + cheese1.getArea());
+        logger.info("Cheese1 color: " + cheese1.getColor());
+        logger.info("Cheese1 Radius :" + cheese1.getRadius());
+        logger.info("Area of Round Cheese1: " + cheese1.getArea());
         System.out.println();
 
         logger.warn("HELLO MAVEN!");
@@ -105,13 +105,13 @@ public class Main {
         list.add("Cheese");
         list.add("Cheddar");
         list.add("Blue Cheese");
-        System.out.println("Original list: " + list);
+        logger.info("Original list: " + list);
 
         list.remove("Butter");
-        System.out.println("List after removing Butter: " + list);
+        logger.info("List after removing Butter: " + list);
 
         String cream = list.get(2);
-        System.out.println("Cream: " + cream);
+        logger.info("Cream: " + cream);
     }
 }
 

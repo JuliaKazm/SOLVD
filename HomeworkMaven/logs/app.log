@@ -1,0 +1,43 @@
+[WARN ] 2023-04-26 22:30:53.925 [main] Main - Maven!
+[WARN ] 2023-04-27 22:53:41.521 [main] Main - Maven!
+[WARN ] 2023-04-27 22:54:24.049 [main] Main - Maven!
+[WARN ] 2023-04-27 22:54:50.407 [main] Main - HELLO MAVEN!
+[WARN ] 2023-04-27 22:55:56.737 [main] Main - HELLO MAVEN!
+[WARN ] 2023-04-27 22:59:48.826 [main] Main - HELLO MAVEN!
+[WARN ] 2023-04-27 23:03:15.991 [main] Main - HELLO MAVEN!
+[WARN ] 2023-04-27 23:08:49.351 [main] Main - HELLO MAVEN!
+[WARN ] 2023-04-27 23:10:43.608 [main] Main - HELLO MAVEN!
+[WARN ] 2023-04-27 23:11:17.539 [main] Main - HELLO MAVEN!
+[WARN ] 2023-04-27 23:12:14.215 [main] Main - HELLO MAVEN!
+[WARN ] 2023-04-27 23:12:30.112 [main] Main - HELLO MAVEN!
+[INFO ] 2023-05-02 11:20:09.292 [main] Main - 
+[INFO ] 2023-05-02 11:20:09.297 [main] Main - Name: Julia Age: 30
+[INFO ] 2023-05-02 11:20:09.298 [main] Main - 
+[INFO ] 2023-05-02 11:20:09.301 [main] Main - p.equals(julia): true
+[INFO ] 2023-05-02 11:20:09.302 [main] Main - 
+[INFO ] 2023-05-02 11:20:09.303 [main] Main - p.hashCode(): 215799816
+[INFO ] 2023-05-02 11:20:09.305 [main] Main - 
+[WARN ] 2023-05-02 11:20:09.366 [main] Main - HELLO MAVEN!
+[INFO ] 2023-05-02 11:21:55.785 [main] Main - Name: Julia Age: 30
+[INFO ] 2023-05-02 11:21:55.790 [main] Main - p.equals(julia): true
+[INFO ] 2023-05-02 11:21:55.793 [main] Main - p.hashCode(): 215799816
+[WARN ] 2023-05-02 11:21:55.838 [main] Main - HELLO MAVEN!
+[INFO ] 2023-05-02 11:25:13.576 [main] Main - Name: Julia Age: 30
+[INFO ] 2023-05-02 11:25:13.581 [main] Main - p.equals(julia): true
+[INFO ] 2023-05-02 11:25:13.582 [main] Main - p.hashCode(): 215799816
+[INFO ] 2023-05-02 11:25:13.584 [main] Main - Number of cashiers: 4
+[INFO ] 2023-05-02 11:25:13.611 [main] Main - Butter: Brand Kerry-gold, Dairy Farm K, salt content: 10
+[INFO ] 2023-05-02 11:25:13.636 [main] Main - Cheese: Brand Kerry-gold, Dairy Farm K, type: Cheddar
+[INFO ] 2023-05-02 11:25:13.651 [main] Main - Milk: Brand Kerry-gold, Dairy Farm K, fat content: 1
+[INFO ] 2023-05-02 11:25:13.669 [main] Main - Yogurt: Brand Kerry-gold, Dairy Farm K, flavor: Strawberry
+[INFO ] 2023-05-02 11:25:13.688 [main] Main - Butter1 color: yellow
+[INFO ] 2023-05-02 11:25:13.690 [main] Main - Butter1 width: 7.0
+[INFO ] 2023-05-02 11:25:13.690 [main] Main - Butter1 height: 5.0
+[WARN ] 2023-05-02 11:25:13.691 [main] Main - Area of square Butter1: 35.0
+[INFO ] 2023-05-02 11:25:13.692 [main] Main - Cheese1 color: white
+[INFO ] 2023-05-02 11:25:13.693 [main] Main - Cheese1 Radius :5.0
+[INFO ] 2023-05-02 11:25:13.693 [main] Main - Area of Round Cheese1: 78.53981633974483
+[WARN ] 2023-05-02 11:25:13.694 [main] Main - HELLO MAVEN!
+[INFO ] 2023-05-02 11:25:13.696 [main] Main - Original list: Milk Cream Butter Cheese Cheddar Blue Cheese 
+[INFO ] 2023-05-02 11:25:13.696 [main] Main - List after removing Butter: Milk Cream Cheese Cheddar Blue Cheese 
+[INFO ] 2023-05-02 11:25:13.697 [main] Main - Cream: Cheese
